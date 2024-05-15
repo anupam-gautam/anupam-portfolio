@@ -15,8 +15,8 @@ export const greetings: GreetingsType = {
   name: "Anupam Gautam",
   title: "Hi all, I'm Anupam",
   description:
-    "In the digital world of endless connections, I build bridges that span the gap between sleek user interfaces and treasure troves of data, using tools like restful APIs, graphQL, and websockets. As aerverless computing rises to the forefront, I’m eagerly exploring this dynamic and cutting-edge domain.",
-  // resumeLink: "#",
+    "I am a eager learner working as a software engineer with my primary focus area on back-end development using .NET, along with interest in utilizing cloud platform. I specialize in Serverless framework, .NET CDK, .NET Core, Amazon Web Services but I'm also familiar with React, Typescript, Python",
+  resumeLink: "https://wary-boar-fe2.notion.site/Anupam-Gautam-3cfbe8bd03b04e8a949770b8d88b6ed5?pvs=4",
 };
 
 export const openSource = {
@@ -30,6 +30,7 @@ export const socialLinks: SocialLinksType = {
   linkedin: "https://www.linkedin.com/in/anupamgautam46/",
   github: "https://github.com/anupam-gautam/",
   twitter: "https://twitter.com/AnupamGautam46",
+  medium: "https://medium.com/@anupam.gautam46",
   // instagram: "https://www.instagram.com/anupam",
   // facebook: 'https://www.facebook.com/anupam',
 };
@@ -111,17 +112,17 @@ export const educationInfo: EducationType[] = [
   {
     schoolName: "Tribhuvan University",
     subHeader: "Bachelor of Science in Computer Science and Information Technology",
-    duration: "2018 - 2023",
-    desc: "",
-    grade: "Distinction (80.8%)",
+    duration: "2018 - 2022",
+    desc: "Major in Cloud Computing and Advanced Networking in IPv6",
+    grade: "Distinction with 81.24%",
     descBullets: [], // Array of Strings
   },
   {
     schoolName: "Kathmandu Model College",
-    subHeader: "Higher National Diploma (+2) in Science (Major: Computer Science)",
+    subHeader: "Higher National Diploma (+2)",
     duration: "2016 - 2018",
-    desc: "",
-    grade: "Grade B+",
+    desc: "Major in Computer Science",
+    grade: "Grade A with 3.16 GPA",
     descBullets: [], // Array of Strings
   },
 ];
@@ -132,36 +133,58 @@ export const experience: ExperienceType[] = [
     company: " Fintech Solutions",
     companyLogo: "/img/icons/common/FintechLogo.png",
     date: "Sept 2023 - Present",
-    desc: "I crafted backends for diverse web apps, APIs, and WebSockets in e-commerce, podcasts, and property management. Managed server upkeep, deployments on Linux, Heroku, and AWS S3. Implemented PyTest for automated unit and integration testing, slashing 4 hours of manual testing each sprint, fortifying a dependable and flawless code foundation.",
+    desc: "Backend Development for cross-country global payment system:",
+    descBullets: [
+      "Developing serverless Fintech applications using AWS, .NET, NoSQL, and SQL.",
+      "Creating AWS Cloud Development Kit with code (IAAC), console, and terminal.",
+      "Integrating middlewares and APIs for cross-border payment solutions within a clean architecture.",
+      "Designing GraphQL and RESTful APIs with FluentValidation & CQRS pattern.",
+      "Using MediatR for application logic to enhance separation of concerns.",
+      "Integrating cloud services like VPC, S3, GraphQL, SQS, Lambda, and Cloud Triggers for scalability.",
+    ],
   },
   {
     role: "Software Developer",
     company: "EDA Nepal",
     companyLogo: "/img/icons/common/edaNepal.PNG",
-    date: "Jan 2023 - Sept 2023",
-    desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
+    date: "Dec 2022 - Aug 2023",
+    desc: "Backend api's for Quiz game and Fullstack Admin Panel:",
+    descBullets: [
+      "Developed APIs for a mobile quiz game backend and fullstack MVC admin panel using .NET.",
+      "Implemented Google and Facebook authentication, and integrated bulk email (SMTP) using Ethereal.",
+      "Migrated from Lazy Cache to Redis Cache.",
+      "Published and tested application versions on the deployment server.",
+      "Utilized AWS S3 for image storage.",
+    ],
+  },
+  {
+    role: "Software Developer (Freelance)",
+    company: "Info Brain Solutions",
+    companyLogo: "/img/icons/common/infoBrainLogo.png",
+    date: "Sep 2021 - Aug 2023",
+    desc: "Worked on Fullstack Admin Panel of Hospitality Services:",
+    descBullets: [
+      "Developed custom RESTful APIs and integrated with front-end using CSS, JavaScript, jQuery, Ajax, SQL, and .NET.",
+      "Wrote SQL procedures for complex calculations and used MSSQL daily.",
+      "Debugged and fixed client-side and server-side issues for MVC, Console, Microservices, and API projects.",
+      "Integrated OAuth 2.0 and JWT authentication in .NET applications.",
+      "Dumped data into NoSQL from FTP server.",
+      "Integrated third-party APIs as needed for smooth application flow.",
+    ],
   },
   {
     role: "Dotnet Developer Intern",
     company: "EDA Nepal",
-    companyLogo: "/img/icons/common/edaNepal.PNG",
-    date: "Sept 2022 - Dec 2022",
-    desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
-  },
-  {
-    role: "Student Partnership Coordinator and Graphic Designer",
-    company: "Hamrobazar",
-    companyLogo: "/img/icons/common/hamrobazar.jpg",
-    date: "Oct 2021 - Sep 2022",
-    desc: "Crafting diverse web applications, I've elevated functionality and user engagement. Spearheaded Visual Portfolio, leveraging AI for captivating presentations from parsed text. Proficiently set up and optimized applications on Linux servers, guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
+    companyLogo: "/img/icons/common/infoBrainLogo.png",
+    date: "Jun 2021 - Aug 2021",
+    desc: "Internship Completed on .NET Development:",
+    descBullets: [
+      "Explored CQRS and Mediatr pattern post-implementation.",
+      "Gained expertise in role-based authorization and JWT authentication.",
+      "Utilized logging tools from NuGet packages.",
+      "Implemented Unit Testing for application stability.",
+      "Deepened understanding of API backend logic.",
+    ],
   },
 ];
 
